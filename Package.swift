@@ -24,6 +24,7 @@ let package = Package(
             dependencies: [
             "AEPMobileServices",
             .product(name: "AEPCore", package: "AEPCore"),
+            .product(name: "AEServices", package: "AEPCore"),
             ],
             path: "AEPMobileServicesWrapper"
          ),
